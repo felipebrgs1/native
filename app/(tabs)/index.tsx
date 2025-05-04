@@ -33,30 +33,42 @@ export default function Home() {
               style={{
                 inputIOS: {
                   fontSize: 14,
-                  backgroundColor: '#fee2e2',
+                  backgroundColor: '#fff',
                   padding: 8,
                   borderRadius: 6,
+                  shadowOffset: { width: 0, height: 4 },
+                  shadowOpacity: 0.1,
                 },
                 inputAndroid: {
                   fontSize: 14,
-                  backgroundColor: '#fee2e2',
+                  backgroundColor: '#fff',
                   padding: 8,
                   borderRadius: 6,
+                  shadowOffset: { width: 0, height: 4 },
+                  shadowOpacity: 0.1,
+                },
+                inputWeb: {
+                  fontSize: 14,
+                  backgroundColor: '#fff',
+                  padding: 8,
+                  borderRadius: 6,
+                  shadowOffset: { width: 0, height: 4 },
+                  shadowOpacity: 0.1,
                 },
               }}
             />
           </View>
 
-          <TouchableOpacity className="mx-2 items-center justify-center rounded bg-violet-300 px-3 py-2">
-            <Image source={require('../../assets/patas.png')} style={{ width: 24, height: 24 }} />
+          <TouchableOpacity className="mx-2 items-center justify-center rounded-[6px] border border-violet-500 bg-white px-3 py-2">
+            <Image source={require('../../assets/cat.svg')} style={{ width: 24, height: 24 }} />
           </TouchableOpacity>
 
-          <TouchableOpacity className="mx-2 items-center justify-center rounded bg-violet-300 px-3 py-2">
-            <Image source={require('../../assets/patas.png')} style={{ width: 24, height: 24 }} />
+          <TouchableOpacity className="mx-2 items-center justify-center rounded-[6px] border border-violet-500 bg-white px-3 py-2">
+            <Image source={require('../../assets/dog.svg')} style={{ width: 24, height: 24 }} />
           </TouchableOpacity>
 
-          <TouchableOpacity className="mx-2 items-center justify-center rounded">
-            <Image source={require('../../assets/icon.png')} style={{ width: 40, height: 40 }} />
+          <TouchableOpacity className="mx-2 items-center justify-center rounded-[6px] border border-violet-500 bg-white px-3 py-2">
+            <Image source={require('../../assets/both.svg')} style={{ width: 24, height: 24 }} />
           </TouchableOpacity>
         </View>
       </View>
