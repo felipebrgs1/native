@@ -11,7 +11,7 @@ export default function Home() {
       <View style={styles.container}>
         <View className="rounded-[6px] p-5 shadow-[2.5px_2.5px_6px_2px_rgba(0,0,0,0.3)]">
           <Text className="text-[20px] font-medium">
-            Olá,<span className="text-[#500878]">Sejam bem vindos</span>
+            <Text className="text-[#500878]">Sejam bem vindos</Text>
           </Text>
           <Text className="text-sm font-medium">
             Explore perfis de cães e gatos adoráveis que esperam por um lar. Seu novo amigo pode
