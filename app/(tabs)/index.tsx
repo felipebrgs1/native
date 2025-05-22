@@ -21,7 +21,7 @@ export default function Home() {
             <Text className="text-[#500878]">Sejam bem vindos</Text>
           </Text>
           <Text className="text-sm font-medium">
-            Explore perfis de fsdfsdfráveis que esperam por um lar. Seu novo amigo pode estar aqui.
+            Explore perfis de animais que esperam por um lar. Seu novo amigo pode estar aqui.
             <Image source={require('../../assets/both.png')} style={{ width: 20, height: 20 }} />
           </Text>
         </View>
@@ -78,7 +78,7 @@ export default function Home() {
           </TouchableOpacity>
 
           <TouchableOpacity
-            className={`mx-2 items-center justify-center  rounded-[6px] border px-3 py-2 ${selectedAnimal === 'both' ? 'border-violet-700 bg-violet-400' : 'border-violet-500 bg-white'}`}
+            className={`mx-2 items-center justify-center rounded-[6px] border px-3 py-2 ${selectedAnimal === 'both' ? 'border-violet-700 bg-violet-400' : 'border-violet-500 bg-white'}`}
             onPress={() => setSelectedAnimal('both')}>
             <Image source={require('../../assets/both.png')} style={{ width: 24, height: 24 }} />
           </TouchableOpacity>
